@@ -1,0 +1,274 @@
+{
+  "method": "leave_one_out_cross_validation",
+  "councils": 38,
+  "accuracy_pct": 71.1,
+  "correct": 27,
+  "results": [
+    {
+      "council": "Barking and Dagenham",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Barnet",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Barnsley",
+      "predicted": "Reform UK",
+      "actual": "Labour",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Bexley",
+      "predicted": "Conservative",
+      "actual": "Conservative",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Birmingham",
+      "predicted": "Reform UK",
+      "actual": "Labour",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Bolton",
+      "predicted": "Reform UK",
+      "actual": "Labour",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Brent",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Bromley",
+      "predicted": "Conservative",
+      "actual": "Conservative",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Bury",
+      "predicted": "Labour",
+      "actual": "Labour Co-op",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Calderdale",
+      "predicted": "Labour",
+      "actual": "Liberal Democrat",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Camden",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Coventry",
+      "predicted": "Reform UK",
+      "actual": "Labour",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Croydon",
+      "predicted": "Labour",
+      "actual": "Conservative",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Dudley",
+      "predicted": "Reform UK",
+      "actual": "Labour",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Ealing",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Enfield",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Greenwich",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Hackney",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Hammersmith and Fulham",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Haringey",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Harrow",
+      "predicted": "Labour",
+      "actual": "Conservative",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Havering",
+      "predicted": "Conservative",
+      "actual": "Havering Residents Association",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Hillingdon",
+      "predicted": "Conservative",
+      "actual": "Conservative",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Hounslow",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Islington",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Kensington and Chelsea",
+      "predicted": "Conservative",
+      "actual": "Conservative",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Kingston upon Thames",
+      "predicted": "Liberal Democrat",
+      "actual": "Liberal Democrat",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Lambeth",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Lewisham",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Merton",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Newham",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Redbridge",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Richmond upon Thames",
+      "predicted": "Liberal Democrat",
+      "actual": "Liberal Democrat",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Southwark",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Sutton",
+      "predicted": "Liberal Democrat",
+      "actual": "Liberal Democrat",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Tower Hamlets",
+      "predicted": "Labour",
+      "actual": "Aspire",
+      "correct": false,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Waltham Forest",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    },
+    {
+      "council": "Wandsworth",
+      "predicted": "Labour",
+      "actual": "Labour",
+      "correct": true,
+      "prior_strength": 0.45
+    }
+  ]
+}

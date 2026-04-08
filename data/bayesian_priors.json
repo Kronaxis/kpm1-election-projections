@@ -1,0 +1,20 @@
+{
+  "Birmingham": {
+    "prior_shares": {
+      "Labour": 36.8,
+      "Conservative": 25.4,
+      "Liberal Democrat": 14.4,
+      "Green": 10.7,
+      "Reform UK": 7.9,
+      "Other": 3.9,
+      "TUSC": 0.3,
+      "Independent": 0.2,
+      "Workers Party": 0.2,
+      "We Matter Party": 0.2,
+      "Breakthrough Party": 0.1
+    },
+    "prior_winner": "Labour",
+    "prior_strength": 0.8,
+    "has_previous_result": true
+  }
+}
