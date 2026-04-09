@@ -6,20 +6,89 @@ KPM-1 (Kronaxis Projection Model 1) projects the outcomes of the 7 May 2026 UK l
 
 No real humans are surveyed. The projection is generated entirely from synthetic personas, corrected against published election data, referendum results, and demographic statistics.
 
+---
+
+## Results (V2, 9 April 2026)
+
+### National Vote Share
+
+| Party | Projected Vote Share |
+|---|---|
+| Reform UK | 27.8% |
+| Conservative | 22.5% |
+| Labour | 21.4% |
+| Liberal Democrat | 18.8% |
+| Green | 7.0% |
+
+### Projected Council Control (136 Councils)
+
+| Party | Current Control | Projected Control | Change |
+|---|---|---|---|
+| Reform UK | 0 | 67 | +67 |
+| Liberal Democrat | 13 | 26 | +13 |
+| Conservative | 37 | 27 | -10 |
+| Labour | 92 | 16 | -76 |
+
+### Projected Seats Won (Councillors)
+
+| Party | Projected Seats | Net Change | Share |
+|---|---|---|---|
+| Reform UK | 2,043 | **+2,043** | 40.6% |
+| Conservative | 1,191 | **-210** | 23.7% |
+| Liberal Democrat | 952 | **+599** | 18.9% |
+| Labour | 839 | **-2,441** | 16.7% |
+| Green | 9 | **+9** | 0.2% |
+| **Total** | **5,034** | | |
+
+### London vs Rest of England
+
+| Region | Councils | Reform UK | Conservative | Labour | Lib Dem |
+|---|---|---|---|---|---|
+| London | 32 boroughs | 5 | 9 | 12 | 6 |
+| Rest of England | 104 councils | 62 | 18 | 4 | 20 |
+
+---
+
+## Pre-registration
+
+Predictions were published and cryptographically hashed (SHA-256) on 9 April 2026, before polls open on 7 May 2026. The hash proves the predictions were not modified after seeing results.
+
+```
+sha256:e873495f33e0cef89b32138e5b1d7cdb6dbaec6a81b602291db832e2601bde2d
+```
+
+To verify: hash `predictions/may7_2026_projections.json` with SHA-256 and compare.
+
+| File | Description |
+|------|-------------|
+| `predictions/may7_2026_projections.json` | Full 136-council projections with per-council vote shares |
+| `predictions/pre_registration_hash.txt` | SHA-256 hash of the projections file |
+
+---
+
+## Upcoming Reruns
+
+| Date | Purpose |
+|---|---|
+| **1 May 2026** | Rerun with latest polling data, candidate lists, and news context |
+| **6 May 2026** | Final rerun (eve of election), captures last-minute shifts |
+| **8 May 2026** | Post-election analysis: actual vs predicted, published same day |
+
+Each rerun produces a new hash. All versions are archived.
+
+---
+
 ## Methodology
 
 See [METHODOLOGY.md](METHODOLOGY.md) for the full plain-English explanation of every step.
 
-## Pre-registration
+**Summary:**
 
-Predictions will be published and cryptographically hashed (SHA-256) before polls open on 7 May 2026. The hash proves the predictions were not modified after seeing results.
-
-| File | Description |
-|------|-------------|
-| `predictions/may7_2026_projections.json` | Full 136-council projections |
-| `predictions/pre_registration_hash.txt` | SHA-256 hash of the projections file |
-| `data/bayesian_priors.json` | Statistical priors per council (no LLM) |
-| `data/uns_baseline.json` | Uniform National Swing baseline (dumb model to beat) |
+- 65,000 synthetic personas with full demographics, voting history, and DYNAMICS-8 personality profiles
+- Each persona deliberates individually: sincere preference, tactical considerations, final vote with reasoning
+- A proprietary language model fine-tuned on 5,000 examples of UK local voting behaviour handles the deliberation
+- 14 correction layers applied after aggregation (incumbency, protest voting, Brexit-Reform correlation, ethnicity-Gaza effect, candidate ceilings from Democracy Club data, and more)
+- Ward-level disaggregation across 2,965 wards
 
 ## External Data Sources
 
@@ -27,11 +96,12 @@ Predictions will be published and cryptographically hashed (SHA-256) before poll
 |---------|----------|--------|
 | Census 2021 demographics | 650 constituencies | ONS |
 | Election history 2018-2025 | 38/136 councils | Wikipedia |
-| Candidate counts | 136 councils | Democracy Club |
+| Candidate counts | 136 councils, 4,624 candidates | Democracy Club |
 | Brexit referendum Leave% | 136 councils | Electoral Commission |
 | Census 2021 ethnicity | 140 councils | ONS |
 | IMD deprivation index | 136 councils | ONS |
-| National polling averages | 5 parties | Published polls |
+| National polling averages | 5 parties | Published polls (April 2026) |
+| Ward boundaries | 2,965 wards | Democracy Club |
 
 ## Validation
 
@@ -40,7 +110,7 @@ Predictions will be published and cryptographically hashed (SHA-256) before poll
 | In-sample backtest (38 councils, 2022-2024) | 76% winner accuracy |
 | Leave-one-out cross-validation | 71% winner accuracy |
 | Sensitivity analysis (6 scenarios) | 135/136 councils stable |
-| UNS baseline comparison | Our model is substantially more plausible |
+| UNS baseline comparison | Model beats naive baseline by 14 points |
 
 ## Success Criteria
 
@@ -57,11 +127,19 @@ Results vs projections will be updated live from 11pm on 7 May 2026.
 
 Analysis will be published within hours, leading with misses. If the model fails, we will say so directly and explain why.
 
+## How to Cite
+
+```
+Duke, J. (2026). Kronaxis KPM-1: Synthetic persona election projections for
+136 English local councils, May 2026. Kronaxis.
+https://github.com/Kronaxis/kpm1-election-projections
+```
+
 ## Licence
 
-Data and methodology: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may use, share, and adapt with attribution.
+Data and predictions: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may use, share, and adapt with attribution.
 
-Prediction model code: proprietary (Kronaxis Ltd).
+Prediction model code: proprietary (Kronaxis Ltd). The DYNAMICS-8 personality framework specification is published under CC BY 4.0.
 
 ## About
 
