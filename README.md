@@ -49,6 +49,29 @@ No real humans are surveyed. The projection is generated entirely from synthetic
 
 ---
 
+## Blog Posts
+
+| Post | Description |
+|------|-------------|
+| [V2 Full Results (9 April 2026)](https://kronaxis.co.uk/blog/election-results-v2-april-2026) | Complete 136-council projections with national and regional breakdowns |
+| [Full Methodology Explained](https://kronaxis.co.uk/blog/election-projections-2026) | Plain-English walkthrough of every step in the projection pipeline |
+| [Earlier 20-Council Projections](https://kronaxis.co.uk/blog/predicting-may-7-elections) | Initial projections for the first 20 councils (before full 136-council run) |
+| [Technical Paper](https://kronaxis.co.uk/blog/election-prediction-paper) | Detailed technical writeup covering model architecture and correction layers |
+| [By-Election Validation](https://kronaxis.co.uk/blog/election-prediction-by-elections) | Validation against March 2026 by-election results (10 wards) |
+
+---
+
+## Results at Every Level
+
+KPM-1 produces projections at four levels of granularity:
+
+- **National:** vote share per party, total seat counts, net seat changes across all 136 councils
+- **Regional:** London (32 boroughs) vs Rest of England (104 councils) breakdown of council control
+- **Council-level:** 136 individual council projections, each with projected winner, winning margin, confidence tier, and full party vote shares. See [`predictions/may7_2026_projections.json`](predictions/may7_2026_projections.json).
+- **Ward-level:** 2,965 ward projections with seat allocation, swing analysis, and local demographic weighting. Ward-level data is available on the [kronaxis.co.uk results pages](https://kronaxis.co.uk/blog/election-results-v2-april-2026) and on request.
+
+---
+
 ## Pre-registration
 
 Predictions were published and cryptographically hashed (SHA-256) on 9 April 2026, before polls open on 7 May 2026. The hash proves the predictions were not modified after seeing results.
