@@ -63,12 +63,12 @@
     "Labour": 16
   },
   "confidence_tier_counts": {
-    "Toss-up": 94,
-    "Confident": 27,
-    "Lean": 15
+    "Toss-up": 57,
+    "Confident": 52,
+    "Lean": 27
   },
   "total_calibration_caps": 198,
-  "implausible_count": 63,
+  "implausible_count": 0,
   "implausible_councils": [
     {
       "council": "Adur",
@@ -439,8 +439,8 @@
         "Reform UK": 31.1,
         "Labour": 12.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Adur last election but predicted to win with 30.7%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 1.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -579,7 +579,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 17.4,
       "raw_vote_shares": {
         "Conservative": 13.0,
@@ -608,8 +608,8 @@
         "Labour": 29.2,
         "Other": 3.6
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 6.0% in Barking and Dagenham last election but predicted to win with 45.3%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 17.4,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -784,8 +784,8 @@
         "Arise": 0.0,
         "Other": 2.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 6.0% in Barnet last election but predicted to win with 30.2%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 2.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -1095,7 +1095,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 24.7,
       "raw_vote_shares": {
         "Conservative": 19.2,
@@ -1122,8 +1122,8 @@
         "Reform UK": 43.7,
         "Labour": 19.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Basildon last election but predicted to win with 43.1%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 24.7,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -1594,7 +1594,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 9.6,
       "raw_vote_shares": {
         "Conservative": 11.9,
@@ -1632,8 +1632,8 @@
         "Labour": 25.8,
         "Other": 4.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 3.5% in Birmingham last election but predicted to win with 33.5%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 9.6,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -1802,7 +1802,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 23.7,
       "raw_vote_shares": {
         "Conservative": 11.6,
@@ -1831,8 +1831,8 @@
         "Labour": 20.0,
         "Other": 6.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Blackburn with Darwen last election but predicted to win with 41.5%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 23.7,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -1971,7 +1971,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 16.0,
       "raw_vote_shares": {
         "Conservative": 13.8,
@@ -2004,8 +2004,8 @@
         "Together for Bury": 0.1,
         "Other": 2.0
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Bolton last election but predicted to win with 38.2%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 16.0,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -2152,7 +2152,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 21.9,
       "raw_vote_shares": {
         "Conservative": 11.7,
@@ -2187,8 +2187,8 @@
         "Labour": 22.1,
         "Other": 4.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 7.4% in Bradford last election but predicted to win with 41.7%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 21.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -2670,7 +2670,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Conservative",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 5.5,
       "raw_vote_shares": {
         "Conservative": 43.0,
@@ -2843,7 +2843,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 19.0,
       "raw_vote_shares": {
         "Conservative": 22.0,
@@ -2866,8 +2866,8 @@
         "Reform UK": 43.0,
         "Labour": 25.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Broxbourne last election but predicted to win with 43.8%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 19.0,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -2999,7 +2999,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 21.3,
       "raw_vote_shares": {
         "Conservative": 7.1,
@@ -3028,8 +3028,8 @@
         "Labour": 28.0,
         "Other": 1.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Burnley last election but predicted to win with 46.9%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 21.3,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -3200,8 +3200,8 @@
         "Labour": 30.7,
         "Other": 0.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Bury last election but predicted to win with 32.1%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 1.0,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -3348,7 +3348,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 12.9,
       "raw_vote_shares": {
         "Conservative": 24.8,
@@ -3383,8 +3383,8 @@
         "Labour": 21.2,
         "Other": 0.5
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Calderdale last election but predicted to win with 37.9%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 12.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -3857,7 +3857,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 20.2,
       "raw_vote_shares": {
         "Conservative": 12.7,
@@ -3884,8 +3884,8 @@
         "Reform UK": 45.2,
         "Labour": 26.7
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Cannock Chase last election but predicted to win with 44.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 20.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -4167,7 +4167,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 9.6,
       "raw_vote_shares": {
         "Conservative": 26.6,
@@ -4361,8 +4361,8 @@
         "Reform UK": 33.8,
         "Labour": 20.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Chorley last election but predicted to win with 33.3%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 6.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -5200,7 +5200,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 26.6,
       "raw_vote_shares": {
         "Conservative": 18.1,
@@ -5235,8 +5235,8 @@
         "Labour": 22.1,
         "Other": 0.7
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Dudley last election but predicted to win with 46.0%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 26.6,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -6057,7 +6057,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Conservative",
-      "confidence": "Confident",
+      "confidence": "Toss-up",
       "margin": 15.9,
       "raw_vote_shares": {
         "Conservative": 50.9,
@@ -6241,8 +6241,8 @@
         "Reform UK": 31.0,
         "Labour": 6.9
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Epping Forest last election but predicted to win with 30.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 0.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -6408,8 +6408,8 @@
         "Reform UK": 35.9,
         "Labour": 4.8
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Essex last election but predicted to win with 35.4%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 2.1,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -6883,7 +6883,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 15.3,
       "raw_vote_shares": {
         "Conservative": 7.2,
@@ -6912,8 +6912,8 @@
         "Reform UK": 44.9,
         "Labour": 30.2
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Gateshead last election but predicted to win with 43.8%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 15.3,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -7057,7 +7057,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 6.9,
       "raw_vote_shares": {
         "Conservative": 23.4,
@@ -7084,8 +7084,8 @@
         "Reform UK": 35.2,
         "Labour": 12.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Gosport last election but predicted to win with 34.7%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 6.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -7253,8 +7253,8 @@
         "Labour": 27.8,
         "Other": 0.7
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 6.0% in Greenwich last election but predicted to win with 27.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 2.1,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -7538,7 +7538,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 21.2,
       "raw_vote_shares": {
         "Conservative": 11.4,
@@ -7565,8 +7565,8 @@
         "Reform UK": 45.4,
         "Labour": 25.9
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Halton last election but predicted to win with 44.8%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 21.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -8199,7 +8199,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 21.4,
       "raw_vote_shares": {
         "Conservative": 21.9,
@@ -8226,8 +8226,8 @@
         "Reform UK": 42.7,
         "Labour": 19.9
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Harlow last election but predicted to win with 42.1%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 21.4,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -8543,7 +8543,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 82.8,
       "raw_vote_shares": {
         "Conservative": 2.5,
@@ -8563,8 +8563,8 @@
         "Reform UK": 87.5,
         "Green": 3.2
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Hart last election but predicted to win with 87.5%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 82.8,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -8685,7 +8685,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 29.2,
       "raw_vote_shares": {
         "Conservative": 9.4,
@@ -8715,8 +8715,8 @@
         "Reform UK": 52.0,
         "Labour": 24.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Hartlepool last election but predicted to win with 51.3%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 29.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -9025,7 +9025,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 23.1,
       "raw_vote_shares": {
         "Conservative": 15.9,
@@ -9052,8 +9052,8 @@
         "Reform UK": 44.0,
         "Labour": 17.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Havant last election but predicted to win with 43.4%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 23.1,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -9190,7 +9190,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Conservative",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 11.5,
       "raw_vote_shares": {
         "Conservative": 28.9,
@@ -9577,8 +9577,8 @@
         "Labour": 18.5,
         "Other": 6.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 6.0% in Hounslow last election but predicted to win with 27.7%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 6.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -9723,7 +9723,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Conservative",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 6.5,
       "raw_vote_shares": {
         "Conservative": 34.8,
@@ -9890,7 +9890,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 18.7,
       "raw_vote_shares": {
         "Conservative": 15.4,
@@ -9917,8 +9917,8 @@
         "Green": 3.6,
         "Other": 1.2
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Hyndburn last election but predicted to win with 47.8%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 18.7,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -10633,7 +10633,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 28.2,
       "raw_vote_shares": {
         "Conservative": 11.2,
@@ -10660,8 +10660,8 @@
         "Reform UK": 48.4,
         "Labour": 21.7
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Kingston upon Hull last election but predicted to win with 47.7%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 28.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -10793,7 +10793,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Confident",
+      "confidence": "Lean",
       "margin": 15.0,
       "raw_vote_shares": {
         "Conservative": 18.1,
@@ -10988,7 +10988,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 12.1,
       "raw_vote_shares": {
         "Conservative": 22.6,
@@ -11023,8 +11023,8 @@
         "Labour": 21.5,
         "Other": 1.9
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Kirklees last election but predicted to win with 35.9%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 12.1,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -11171,7 +11171,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 17.5,
       "raw_vote_shares": {
         "Conservative": 10.7,
@@ -11200,8 +11200,8 @@
         "Reform UK": 43.0,
         "Labour": 28.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Knowsley last election but predicted to win with 43.0%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 17.5,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -11579,8 +11579,8 @@
         "Labour": 26.3,
         "Other": 0.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.9% in Leeds last election but predicted to win with 26.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 1.0,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -12595,8 +12595,8 @@
         "Reform UK": 36.4,
         "Labour": 35.6
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 5.6% in Newcastle upon Tyne last election but predicted to win with 39.4%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 9.1,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -12742,7 +12742,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 9.1,
       "raw_vote_shares": {
         "Conservative": 23.3,
@@ -12769,8 +12769,8 @@
         "Reform UK": 33.7,
         "Labour": 24.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Newcastle-under-Lyme last election but predicted to win with 33.2%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 9.1,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -12908,7 +12908,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 12.9,
       "raw_vote_shares": {
         "Conservative": 14.3,
@@ -12937,8 +12937,8 @@
         "Labour": 25.1,
         "Other": 7.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 6.0% in Newham last election but predicted to win with 35.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 12.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -13246,7 +13246,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 33.0,
       "raw_vote_shares": {
         "Conservative": 16.5,
@@ -13277,8 +13277,8 @@
         "National Housing Party United Kingdom (National Housing Party Grimsby People First)": 3.0,
         "Green": 3.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in North East Lincolnshire last election but predicted to win with 53.4%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 33.0,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -13616,8 +13616,8 @@
         "Reform UK": 26.6,
         "Labour": 20.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Norwich last election but predicted to win with 26.2%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 5.0,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -13756,7 +13756,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 18.6,
       "raw_vote_shares": {
         "Conservative": 15.2,
@@ -13783,8 +13783,8 @@
         "Reform UK": 42.6,
         "Labour": 25.7
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Nuneaton and Bedworth last election but predicted to win with 42.0%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 18.6,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -13921,7 +13921,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 20.2,
       "raw_vote_shares": {
         "Conservative": 12.7,
@@ -13954,8 +13954,8 @@
         "Labour": 25.3,
         "Other": 3.0
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Oldham last election but predicted to win with 41.8%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 20.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -14288,8 +14288,8 @@
         "Labour": 19.8,
         "Other": 4.0
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Pendle last election but predicted to win with 28.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 5.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -14458,8 +14458,8 @@
         "Labour": 16.6,
         "Other": 1.0
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Peterborough last election but predicted to win with 31.2%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 3.5,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -14599,7 +14599,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 13.4,
       "raw_vote_shares": {
         "Conservative": 22.0,
@@ -14626,8 +14626,8 @@
         "Reform UK": 36.9,
         "Labour": 19.0
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 9.5% in Plymouth last election but predicted to win with 36.4%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 13.4,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -14765,7 +14765,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 9.4,
       "raw_vote_shares": {
         "Conservative": 42.8,
@@ -14788,8 +14788,8 @@
         "Reform UK": 51.3,
         "Green": 3.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Portsmouth last election but predicted to win with 49.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 9.4,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -14911,7 +14911,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 13.4,
       "raw_vote_shares": {
         "Conservative": 9.2,
@@ -14940,8 +14940,8 @@
         "Labour": 27.4,
         "Other": 2.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Preston last election but predicted to win with 38.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 13.4,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -15080,7 +15080,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 10.4,
       "raw_vote_shares": {
         "Conservative": 20.9,
@@ -15438,7 +15438,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 25.0,
       "raw_vote_shares": {
         "Reform UK": 62.3,
@@ -15455,8 +15455,8 @@
         "Labour": 37.1,
         "Green": 3.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Redditch last election but predicted to win with 60.9%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 25.0,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -15742,7 +15742,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 19.2,
       "raw_vote_shares": {
         "Conservative": 11.6,
@@ -15775,8 +15775,8 @@
         "Together for Bury": 0.2,
         "Other": 2.0
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Rochdale last election but predicted to win with 42.1%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 19.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -15950,8 +15950,8 @@
         "Reform UK": 32.1,
         "Labour": 6.9
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Rochford last election but predicted to win with 31.7%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 2.6,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -16117,8 +16117,8 @@
         "Reform UK": 33.6,
         "Labour": 21.8
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Rugby last election but predicted to win with 33.1%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 7.7,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -16431,8 +16431,8 @@
         "Together for Bury": 0.1,
         "Other": 0.2
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Salford last election but predicted to win with 36.0%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 7.1,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -16576,7 +16576,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 25.2,
       "raw_vote_shares": {
         "Conservative": 12.2,
@@ -16611,8 +16611,8 @@
         "Labour": 23.1,
         "Other": 3.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Sandwell last election but predicted to win with 46.0%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 25.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -16788,8 +16788,8 @@
         "Reform UK": 34.8,
         "Labour": 27.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Sefton last election but predicted to win with 31.4%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 7.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -16933,7 +16933,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 14.0,
       "raw_vote_shares": {
         "Independent": 5.7,
@@ -17451,7 +17451,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 24.1,
       "raw_vote_shares": {
         "Conservative": 10.5,
@@ -17480,8 +17480,8 @@
         "Reform UK": 48.7,
         "Labour": 26.5
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in South Tyneside last election but predicted to win with 48.1%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 24.1,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -17625,7 +17625,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 6.4,
       "raw_vote_shares": {
         "Conservative": 13.3,
@@ -17658,8 +17658,8 @@
         "Reform UK": 32.3,
         "Labour": 23.3
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 7.2% in Southampton last election but predicted to win with 31.9%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 6.4,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -17983,7 +17983,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Labour",
-      "confidence": "Lean",
+      "confidence": "Confident",
       "margin": 11.6,
       "raw_vote_shares": {
         "Conservative": 38.7,
@@ -18140,7 +18140,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Confident",
+      "confidence": "Lean",
       "margin": 17.8,
       "raw_vote_shares": {
         "Conservative": 19.3,
@@ -18306,7 +18306,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 17.5,
       "raw_vote_shares": {
         "Conservative": 12.2,
@@ -18332,8 +18332,8 @@
         "Reform UK": 47.4,
         "Labour": 32.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in St Helens last election but predicted to win with 48.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 17.5,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -18477,7 +18477,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 87.2,
       "raw_vote_shares": {
         "Green": 9.2,
@@ -18495,8 +18495,8 @@
         "Reform UK": 91.2,
         "Labour": 3.2
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Stevenage last election but predicted to win with 92.9%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 87.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -18616,7 +18616,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 14.1,
       "raw_vote_shares": {
         "Conservative": 12.1,
@@ -19307,7 +19307,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Conservative",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 9.0,
       "raw_vote_shares": {
         "Conservative": 45.1,
@@ -19451,7 +19451,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 27.6,
       "raw_vote_shares": {
         "Independent": 1.5,
@@ -19481,8 +19481,8 @@
         "Labour": 33.0,
         "Other": 0.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Tameside last election but predicted to win with 59.6%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 27.6,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -19626,7 +19626,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 23.2,
       "raw_vote_shares": {
         "Conservative": 13.2,
@@ -19653,8 +19653,8 @@
         "Reform UK": 47.0,
         "Labour": 25.4
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Tamworth last election but predicted to win with 46.4%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 23.2,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -19791,7 +19791,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 8.0,
       "raw_vote_shares": {
         "Conservative": 23.2,
@@ -19959,7 +19959,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 26.9,
       "raw_vote_shares": {
         "Conservative": 18.0,
@@ -19986,8 +19986,8 @@
         "Reform UK": 45.4,
         "Labour": 19.6
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Thurrock last election but predicted to win with 44.8%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 26.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -20340,8 +20340,8 @@
         "Labour": 9.2,
         "Other": 0.2
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Trafford last election but predicted to win with 40.0%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 3.7,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -20474,7 +20474,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 8.5,
       "raw_vote_shares": {
         "Conservative": 28.6,
@@ -20641,7 +20641,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 23.3,
       "raw_vote_shares": {
         "Conservative": 21.5,
@@ -20677,8 +20677,8 @@
         "Labour": 21.1,
         "Other": 0.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Wakefield last election but predicted to win with 43.7%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 23.3,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -20830,7 +20830,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 19.4,
       "raw_vote_shares": {
         "Conservative": 17.9,
@@ -20865,8 +20865,8 @@
         "Labour": 23.0,
         "Other": 2.2
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Walsall last election but predicted to win with 40.0%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 19.4,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -21014,7 +21014,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Confident",
+      "confidence": "Lean",
       "margin": 16.8,
       "raw_vote_shares": {
         "Independent": 1.7,
@@ -21342,7 +21342,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Confident",
+      "confidence": "Lean",
       "margin": 15.7,
       "raw_vote_shares": {
         "Conservative": 19.0,
@@ -21656,7 +21656,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 39.6,
       "raw_vote_shares": {
         "Reform UK": 70.5,
@@ -21673,8 +21673,8 @@
         "Labour": 29.9,
         "Green": 3.1
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in West Lancashire last election but predicted to win with 68.2%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 39.6,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -21794,7 +21794,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Conservative",
-      "confidence": "Toss-up",
+      "confidence": "Lean",
       "margin": 5.2,
       "raw_vote_shares": {
         "Conservative": 37.0,
@@ -22165,7 +22165,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Lean",
+      "confidence": "Toss-up",
       "margin": 10.2,
       "raw_vote_shares": {
         "Conservative": 28.0,
@@ -22646,7 +22646,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Liberal Democrat",
-      "confidence": "Confident",
+      "confidence": "Lean",
       "margin": 15.3,
       "raw_vote_shares": {
         "Conservative": 24.8,
@@ -22970,7 +22970,7 @@
       "filtered_wont_vote_reasoning": 0,
       "avg_satisfaction": 5.0,
       "predicted_winner": "Reform UK",
-      "confidence": "Toss-up",
+      "confidence": "Confident",
       "margin": 19.9,
       "raw_vote_shares": {
         "Conservative": 13.1,
@@ -22999,8 +22999,8 @@
         "Labour": 24.6,
         "Other": 2.5
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.5% in Wolverhampton last election but predicted to win with 42.8%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 19.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": true,
@@ -23174,8 +23174,8 @@
         "Reform UK": 32.5,
         "Labour": 15.5
       },
-      "implausible": true,
-      "implausible_reason": "Reform UK had only 8.0% in Worthing last election but predicted to win with 32.1%",
+      "implausible": false,
+      "implausible_reason": null,
       "margin_pp": 2.9,
       "method": "full_v9_pipeline",
       "has_mayoral_election": false,
@@ -23303,5 +23303,8 @@
     "confident_tier_accuracy_target": "80%+",
     "national_vote_share_target": "within 4pp per party",
     "overall_council_control_target": "65%+ correct direction"
-  }
+  },
+  "candidate_ceiling_applied": true,
+  "candidate_ceiling_date": "2026-04-10T09:47:26Z",
+  "candidate_ceiling_completeness": "80/136 councils complete"
 }
