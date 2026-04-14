@@ -1,6 +1,6 @@
 # KPM-1: UK Local Election Projections
 
-**136 English councils. 65,000 synthetic personas. Pre-registered predictions.**
+**159 English councils. 65,000 synthetic personas. 12,224 reasoning traces. Pre-registered predictions.**
 
 KPM-1 (Kronaxis Projection Model 1) projects the outcomes of the 7 May 2026 UK local council elections using synthetic persona panels grounded in Census 2021 demographics and DYNAMICS-8 psychometric personality profiles.
 
@@ -8,26 +8,29 @@ No real humans are surveyed. The projection is generated entirely from synthetic
 
 ---
 
-## Results (V2, 9 April 2026)
+## Results (V3, 14 April 2026)
+
+V3 expands coverage from 136 to 159 councils (136 all-out + 23 thirds elections) with 12,224 causal reasoning traces showing why each persona voted the way they did.
 
 ### National Vote Share
 
 | Party | Projected Vote Share |
 |---|---|
-| Reform UK | 27.8% |
-| Conservative | 22.5% |
-| Labour | 21.4% |
-| Liberal Democrat | 18.8% |
-| Green | 7.0% |
+| Reform UK | 28.3% |
+| Conservative | 23.4% |
+| Labour | 20.1% |
+| Liberal Democrat | 18.2% |
+| Green | 7.5% |
 
-### Projected Council Control (136 Councils)
+### Projected Council Control (159 Councils)
 
 | Party | Current Control | Projected Control | Change |
 |---|---|---|---|
-| Reform UK | 0 | 67 | +67 |
-| Liberal Democrat | 13 | 26 | +13 |
-| Conservative | 37 | 27 | -10 |
-| Labour | 92 | 16 | -76 |
+| Reform UK | 0 | 72 | +72 |
+| Liberal Democrat | 15 | 28 | +13 |
+| Conservative | 42 | 30 | -12 |
+| Labour | 98 | 18 | -80 |
+| No Overall Control | 4 | 11 | +7 |
 
 ### Projected Seats Won (Councillors)
 
