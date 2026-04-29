@@ -42,17 +42,17 @@ If the output of `sha256sum` matches the hash committed to this repository on 1 
 
 ## Methodology summary
 
-Each council prediction is the output of:
+Each council prediction is the output of nine layers. Each layer is a working tool that constrains the model's output:
 
 1. A 200-persona panel drawn from constituency-level demographic data (proportional to ward composition)
 2. A two-question protocol per persona — favourability rating, then voting intention given turnout
 3. Turnout simulation (~30% of personas effectively vote, matching real local-election turnout)
-4. Demographic post-stratification to match council population
+4. Demographic post-stratification — the panel is levelled to match council population marginals
 5. 70% LLM + 30% statistical-baseline ensemble blend
-6. V9 calibration (incumbency boost, protest multiplier, brexit-Reform correlation, ethnicity-Gaza scaling)
+6. V9 calibration — four working tools applied in parallel: incumbency boost, protest multiplier, Brexit-Reform correlation, ethnicity-Gaza scaling
 7. Tactical-voting layer (when Lab+LD+Grn combined > 45% with non-progressive leading)
-8. Relational anchor cap — every party's projected share bounded to [2024 GE share + national swing ± elasticity]
-9. Bootstrap confidence interval — 1000 resamples for win-probability distribution
+8. Relational anchor cap — every party's projected share squared against [2024 GE share + national swing] and circumscribed within due bounds (± elasticity)
+9. Bootstrap confidence interval — the keystone: 1000 resamples that lock the structure before the prediction is declared sound
 
 Full methodology: <https://kronaxis.co.uk/methodology>
 
