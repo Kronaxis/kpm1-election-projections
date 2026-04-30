@@ -1,7 +1,1 @@
-Pre-registration hash for may7_predictions.json
-Generated: 2026-04-09T22:44:08.463646
-Election date: 2026-05-07
-Councils: 136
-Method: full_v9_pipeline
-
-sha256:e873495f33e0cef89b32138e5b1d7cdb6dbaec6a81b602291db832e2601bde2d
+0a0796883595c88ee42b316ba38329d79ef43b9a292026a6f62efb94d589c786
