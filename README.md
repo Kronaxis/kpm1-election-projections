@@ -1,14 +1,36 @@
 # KPM-1: UK Election Projections
 
-**Pre-registered predictions. Closed proprietary model. Public predictions and SHA-256 hash for verification.**
+> **Pre-registered, hash-verified predictions. Committed to GitHub before voting opens, so anyone can verify after results land that nothing was retroactively adjusted.** Most political-prediction models can be quietly reframed in the post-mortem. This one cannot.
 
-This repository contains pre-registered predictions and SHA-256 hashes for UK elections produced by KPM-1 (Kronaxis Persona Model 1), a synthetic-panel modelling system. The hash for each pre-registered run is committed to this repository **before** any ballot is cast, so anyone can verify after results land that the predictions were not retroactively adjusted.
+This repository carries the pre-registered predictions and SHA-256 hash for UK elections produced by KPM-1 (Kronaxis Persona Model 1), a synthetic-panel modelling system that simulates 65,000 UK personas and their voting intentions, council by council. The hash for each pre-registered run is committed **before** any ballot is cast. After results land, anyone can re-hash the predictions JSON and confirm the file matches what was published before voting.
 
-KPM-1 itself, the 65,000-persona UK dataset, and the calibration pipeline are proprietary to Kronaxis Limited. Predictions and hash exist only for verification — the model is not open source. Commercial enquiries: jason@kronaxis.co.uk.
+KPM-1 itself, the 65,000-persona UK dataset, and the calibration pipeline are proprietary to Kronaxis Limited; the predictions and the hash are public so the work is falsifiable. Commercial enquiries: jason@kronaxis.co.uk.
 
-→ Live predictions browser: <https://kronaxis.co.uk/election-results>
-→ Methodology: <https://kronaxis.co.uk/methodology>
-→ Validation paper (103 cross-domain benchmarks): <https://kronaxis.co.uk/research>
+- **Live predictions browser:** <https://kronaxis.co.uk/election-results>
+- **Methodology (academic detail):** <https://kronaxis.co.uk/methodology>
+- **Validation paper (103 cross-domain benchmarks):** <https://kronaxis.co.uk/research>
+
+## Why hash-pre-registration matters
+
+Without a public hash committed before voting, any model can quietly:
+- Retract predictions in close races and claim "we always said X"
+- Move the headline metric to whichever one came closest
+- Re-publish "the prediction" with quietly adjusted numbers
+
+With a hash committed before voting, none of that is possible. The predictions are the predictions. The methodology is documented at the level required for academic critique. Known biases are listed publicly *before* results so we can't retro-explain them. Every manual override (rare) is logged with reason and before/after values.
+
+This is the open-science discipline that should be table stakes for political-prediction models, but rarely is. We're publishing the proof that it can be done.
+
+## Part of the Kronaxis research stack
+
+KPM-1 is the public proof-of-concept for the Kronaxis synthetic-panel methodology:
+
+1. [**DYNAMICS-8**](https://github.com/Kronaxis/dynamics-8) — the eight-dimension psychographic framework every persona is scored on
+2. [**Panel Studio**](https://github.com/Kronaxis/kronaxis-panel-studio) — the open-source engine that simulates 500–65,000 DYNAMICS-tagged personas at a time
+3. **KPM-1** (this repo) — the production system applied to 7 May 2026 UK local elections; predictions hash-committed before voting
+4. [**Kronaxis Router**](https://github.com/Kronaxis/kronaxis-router) — the LLM proxy infrastructure that makes running 65,000 personas across 136 councils economically viable
+
+The chain: framework → engine → public falsifiable forecast → cost-efficient inference at scale. KPM-1 closes the loop by making the framework's output land against real-world ground truth.
 
 ---
 
