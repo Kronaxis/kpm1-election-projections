@@ -1,14 +1,25 @@
-# KPM-1: UK Election Projections
+<p align="center">
+  <img src="assets/kronaxis-icon.svg" width="64" height="64" alt="Kronaxis">
+</p>
 
-> **Pre-registered, hash-verified predictions. Committed to GitHub before voting opens, so anyone can verify after results land that nothing was retroactively adjusted.** Most political-prediction models can be quietly reframed in the post-mortem. This one cannot.
+<h1 align="center">KPM-1: UK Election Projections</h1>
 
-This repository carries the pre-registered predictions and SHA-256 hash for UK elections produced by KPM-1 (Kronaxis Persona Model 1), a synthetic-panel modelling system that simulates 65,000 UK personas and their voting intentions, council by council. The hash for each pre-registered run is committed **before** any ballot is cast. After results land, anyone can re-hash the predictions JSON and confirm the file matches what was published before voting.
+<p align="center">
+  <strong>Pre-registered, hash-verified predictions. Committed to GitHub before voting opens, so nothing can be retroactively adjusted.</strong>
+</p>
+
+<p align="center">
+  <a href="https://kronaxis.co.uk/election-results">Live results browser</a> &middot;
+  <a href="https://kronaxis.co.uk/methodology">Methodology</a> &middot;
+  <a href="https://kronaxis.co.uk/research">Research portfolio</a> &middot;
+  <a href="https://kronaxis.co.uk">Website</a>
+</p>
+
+---
+
+Most political-prediction models can be quietly reframed in the post-mortem. This one cannot. The repository carries the pre-registered predictions and SHA-256 hash for UK elections produced by KPM-1 (Kronaxis Persona Model 1), a synthetic-panel modelling system that simulates 65,000 UK personas and their voting intentions, council by council. The hash for each pre-registered run is committed **before** any ballot is cast. After results land, anyone can re-hash the predictions JSON and confirm the file matches what was published before voting.
 
 KPM-1 itself, the 65,000-persona UK dataset, and the calibration pipeline are proprietary to Kronaxis Limited; the predictions and the hash are public so the work is falsifiable. Commercial enquiries: jason@kronaxis.co.uk.
-
-- **Live predictions browser:** <https://kronaxis.co.uk/election-results>
-- **Methodology (academic detail):** <https://kronaxis.co.uk/methodology>
-- **Validation paper (103 cross-domain benchmarks):** <https://kronaxis.co.uk/research>
 
 ## Why hash-pre-registration matters
 
