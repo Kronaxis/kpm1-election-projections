@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: >-
+  If you use the KPM-1 election projections in your research, please cite
+  the underlying DYNAMICS-8 persona framework AND the more recent KPM v17.10
+  methodology paper. KPM-1 is preserved here as the first-generation
+  pre-registered baseline; KPM v17.10 is the current production methodology.
+type: dataset
+title: "KPM-1 — Pre-Registered Synthetic-Panel UK Council Election Projections (May 2026)"
+abstract: >-
+  KPM-1: the first-generation Kronaxis Polling Method. Pre-registered,
+  hash-verified UK council election predictions committed to git with
+  SHA-256 hashes before voting opened. 65,000-persona synthetic panel
+  built on DYNAMICS-8; covers 136 councils. The repository preserves
+  the predictions, hashes, scoring, and post-hoc honest reporting of
+  KPM-1's headline result (28.5% per-council accuracy across n=130).
+  KPM-1 is succeeded by KPM-2.2 v15.1 (council fragmentation, 59.2%)
+  and KPM v17.10 (ward-level ensemble, 72.5%), both in the Kronaxis/kpm
+  repository.
+authors:
+  - family-names: "Duke"
+    given-names: "Jason"
+    affiliation: "Kronaxis Limited"
+    email: "jason@kronaxis.co.uk"
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+repository-code: "https://github.com/Kronaxis/kpm1-election-projections"
+keywords:
+  - "election forecasting"
+  - "local government elections"
+  - "pre-registration"
+  - "hash-anchored prediction"
+  - "synthetic personas"
+  - "DYNAMICS-8"
+  - "KPM"
+  - "United Kingdom"
+  - "council elections"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19361059"
+    description: "The DYNAMICS-8 persona framework that underpins KPM-1's synthetic panel."
+  - type: doi
+    value: "10.5281/zenodo.20273978"
+    description: "The KPM v17.10 methodology paper — KPM-1's successor methodology."
+preferred-citation:
+  type: article
+  title: "The Kronaxis Polling Method: A Pre-Registered, Hash-Anchored, Ward-Level Methodology for English Local Council Election Forecasting"
+  authors:
+    - family-names: "Duke"
+      given-names: "Jason"
+      affiliation: "Kronaxis Limited"
+  year: 2026
+  month: 5
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.20273978"
+  url: "https://doi.org/10.5281/zenodo.20273978"
+  license: "CC-BY-4.0"
